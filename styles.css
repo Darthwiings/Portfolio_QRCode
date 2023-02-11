@@ -1,0 +1,38 @@
+@font-face {
+  font-family: PixelFont;
+  src: url(visitor1.ttf);
+}
+
+body {
+  background-color: rgb(220, 200, 195);
+  font-family: PixelFont;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  width: 320px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 50px rgb(210, 147, 192);
+}
+.qrCode {
+  max-width: 90%;
+  border-radius: 20px;
+}
+
+.container > p {
+  font-size: 1.5rem;
+}
+.attribution {
+  font-size: 20px;
+}
+.attribution a {
+  color: hsl(0, 100%, 50%);
+}
+.attribution a:hover {
+  color: hsl(188, 100%, 50%);
+}
